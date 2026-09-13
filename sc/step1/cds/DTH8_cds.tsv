@@ -1,0 +1,4 @@
+gene_id	coord_type	pos	variant_type	name
+DTH8	cds	95	Deletion	A32FS
+DTH8	cds	323	Deletion	K108FS
+DTH8	cds	790	Deletion	G264FS

@@ -1,0 +1,4 @@
+gene_id	coord_type	pos	variant_type	name
+Pita	cds	2752	SNP:C>A(genomic_plus_strand;CDS-level_was_G>T)	Functional_allele_Ala918
+Pita	genome	chr12:10607224	SNP:A>G	Hap4
+Pita	genome	chr12:10607554	SNP:T>G	Hap5

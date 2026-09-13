@@ -1,0 +1,6 @@
+gene_id	coord_type	pos	variant_type	name
+PRR37	cds	245	Deletion	G82FS
+PRR37	cds	1515	Deletion	K505FS
+PRR37	cds	2110	SNP:T>C	Y704H
+PRR37	cds	2113	SNP:C>T	Q705Stop
+PRR37	cds	2129	SNP:T>C	L710P

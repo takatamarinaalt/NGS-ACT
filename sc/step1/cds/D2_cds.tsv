@@ -1,0 +1,2 @@
+gene_id	coord_type	pos	variant_type	name	reference
+D2	cds	940	DEL:40bp(frameshift_after_Lys313)	d2-6(Nipponbare-derived,severe)	Sakamoto et al. 2012 Am J Plant Sci 3:1772 ("New Alleles of Rice ebisu dwarf (d2)...")

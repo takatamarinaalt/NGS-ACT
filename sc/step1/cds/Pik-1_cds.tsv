@@ -1,0 +1,4 @@
+gene_id	coord_type	pos	variant_type	name
+Pik-1	cds	685	SNP	Allele_major_residue1
+Pik-1	cds	754	SNP	Allele_minor_residue
+Pik-1	cds	781	SNP	Allele_major_residue2
