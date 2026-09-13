@@ -1,8 +1,0 @@
-gene_id	coord_type	pos	variant_type	name	reference
-D61	cds	2500	SNP:T>A(genomic_plus_strand;CDS-level_was_A>T)	Fn189(d54)_Ile834Phe	Zhao et al. 2012 J Plant Physiol 169:1750 ("Kinase activity of OsBRI1...")
-D61	cds	2966	SNP:G>A(genomic_plus_strand;CDS-level_was_C>T,derived_from_aa_change)	d61-1_Thr989Ile(mild,kinase_domain)	Yamamuro et al. 2000 Plant Cell 12:1591
-D61	cds	1471	SNP:C>T(genomic_plus_strand;CDS-level_was_G>A,derived_from_aa_change)	d61-2_Val491Met(intermediate,LRR_domain)	Yamamuro et al. 2000 Plant Cell 12:1591
-D61	cds	2539	SNP(base_not_specified_in_source)	d61-4_Glu847Stop(null,kinase_domain,most_severe)	Nakamura et al. 2006 Plant Physiol 140:580
-D61	cds	2277	INS:2bp(approx_position)	d61-6_frameshift_near_Asp759(null,TM_domain)	Nakamura et al. 2006 Plant Physiol 140:580
-D61	cds	1330	SNP:T>C_or_T>A(ambiguous,base_not_specified,要手動確認:genomic_plus_strand変換未実施)	gsor300084_Trp444Arg(LRR_domain)	Gao et al. 2014 (DOAJ/ScienceDirect, "Phenotypic analysis and molecular characterization of an allelic mutant of the D61 gene in rice")
-D61	cds	2963	SNP:G>A(genomic_plus_strand;CDS-level_was_C>T)	hfr131_Thr988Ile(kinase_domain)	Frontiers Plant Sci 2023, 10.3389/fpls.2023.1152196

@@ -1,2 +1,0 @@
-gene_id	coord_type	pos	variant_type	name	reference
-D11	cds	1079	SNP:T>A(genomic_plus_strand;CDS-level_was_A>T,derived_from_aa_change)	cpb1(CLUSTERED_PRIMARY_BRANCH1)_His360Leu	Wang et al. 2015 Plant Biotechnol J 13:903 ("CLUSTERED PRIMARY BRANCH 1, a new allele of DWARF11...")

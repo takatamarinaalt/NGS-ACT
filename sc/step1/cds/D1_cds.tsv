@@ -1,3 +1,0 @@
-gene_id	coord_type	pos	variant_type	name	reference
-D1	cds	913	DEL:2bp(approx,frameshift_after_aa304)	d1(Daikoku,original_spontaneous_allele,null)	Ashikari et al. 1999 PNAS 96:10284; Fujisawa et al. 1999 PNAS 96:7575 (as cited in Chen et al. 2017 Plant Divers 39:73)
-D1	cds	481	DEL:102bp(exon7_skipping,codons161-194,caused_by_intronic_Osr4_LTR-retrotransposon_insertion)	d1-a(mild)	Chen et al. 2017 Plant Divers 39:73

@@ -136,8 +136,7 @@ one convention throughout: one entry per line, an optional leading
 - **Alleles folder or list** (optional, for matching against previously
   reported alleles): either a directory of `{gene}_cds.tsv`-style files, or a
   `.txt` list of such files. A single TSV can also define multiple genes'
-  alleles at once via its `gene_id` column -- see the example files in
-  `sc/step1/cds/` for the expected format.
+  alleles at once via its `gene_id` column.
 - **Bundle (Determining Alleles)**: a single `{gene}_bundle.joblib` produced
   by a prior Clustering Alleles run, a folder of them, or a `.txt` list of
   their paths.
@@ -155,24 +154,3 @@ Each gene's results land in their own subfolder, split into:
   rawdata/              -- everything else: per-position calls, per-cluster
                            PCA plots, cluster assignment files, etc.
 ```
-
-## Repository layout
-
-```
-NGS_ACT_allele.py     -- entry point; launches the GUI
-clustering_gui.py      -- Clustering Alleles screen
-determining_gui.py     -- Determining Alleles screen
-gui_common.py          -- shared GUI widgets/helpers
-model/                 -- trained DEL/INS classifiers (RandomForest, .joblib)
-sc/                     -- the underlying analysis pipeline, invoked by the
-                           GUI as subprocesses:
-  step1/step1/           SNP clustering (Clustering Alleles)
-  step1/step2_newfea2/    Large INDEL clustering (Clustering Alleles)
-  step1/cds/              bundled example allele-definition TSVs
-  step3/1/                SNP determination (Determining Alleles)
-  step3/2_newfea2/        Large INDEL determination (Determining Alleles)
-  step3/3/                combines SNP + INDEL results into one label
-```
-
-Every `sc/` script also accepts `--help` for its own CLI, and can be run
-standalone outside the GUI.
